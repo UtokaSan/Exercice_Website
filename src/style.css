@@ -1,0 +1,57 @@
+body {
+    margin-left: 4em;
+    margin-right: 4em;
+    background-image: url("../img/bg.jpg");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    background-position-x: 920px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+
+#home {
+    
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    top: 25px;
+    width: 500px;
+}
+
+.courses {
+    padding-right: 50px;
+}
+
+.why_us {
+    padding-right: 50px;
+}
+
+.support {
+    padding-right: 50px;
+}
+
+nav button {
+    font-weight: bold;
+    border: black 2px solid;
+    border-radius: 10px;
+    height: 45px;
+    width: 105px;
+}
+body url {
+    posi
+}

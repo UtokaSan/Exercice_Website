@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300&family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 4em;
+    margin-right: 4em;
+    background-image: url("img/bg.jpg");
+    background-size: 840px;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: 700px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+}
+
+#navbar {
+    margin-right: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+
+#home {    
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    top: 25px;
+    width: 500px;
+}
+
+.courses {
+    padding-right: 60px;
+}
+
+.why_us {
+    padding-right: 60px;
+}
+
+.support {
+    padding-right: 60px;
+}
+
+nav button {
+    font-weight: bold;
+    border: black 2px solid;
+    border-radius: 10px;
+    height: 45px;
+    width: 105px;
+}
+.get_start:hover {
+    background-color: rgb(68, 7, 211);
+}
+.get_start {
+    color: white;
+    font-weight: bold;
+    border: rgb(47, 0, 158) 2px solid;
+    background-color: rgb(47, 0, 158);
+    border-radius: 10px;
+    height: 45px;
+    width: 105px;
+    margin-top: 15px;
+}
+#container {
+    font-size: 17px;
+}
+
+#container2 {
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+}
+
+.learn {
+    font-size: 25px;
+}
+
+.lessons {
+    padding-right: 230px;
+}
+.audio {
+    padding-right: 230px
+}
+
+.book {
+    padding-left: 50px;
+    padding-right: 340px;
+}
+.headset {
+    padding-right: 360px;
+}
+.loop {
+    position: absolute;
+    right: -50px;
+}
+
+#image {
+    position: absolute;
+    bottom: 90px;
+}
+
+footer img {
+    width: 90px;
+}
